@@ -1,0 +1,8 @@
+{% extends 'base/main.html'%}{% block content%}
+
+
+{% csrf_token %} Are you sure you want to delete "{{ object }}" ?
+
+  <input type="submit" value="Delete" />
+
+{% endblock content %}
